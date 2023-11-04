@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="cz.martykan.forecastie">
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <application android:allowBackup="true" android:debuggable="true" android:fullBackupContent="true" android:icon="@null" android:label="@null" android:supportsRtl="true" android:testOnly="true">
+        <activity android:name="cz.martykan.forecastie.activities.SplashActivity" android:theme="@null">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@null" android:name="cz.martykan.forecastie.activities.SensorActivity" android:theme="@null"/>
+        <activity android:label="@null" android:name="cz.martykan.forecastie.activities.MainActivity" android:theme="@null"/>
+        <activity android:name="cz.martykan.forecastie.activities.SettingsActivity" android:theme="@null"/>
+        <activity android:label="@null" android:name="cz.martykan.forecastie.activities.ConditionActivity" android:theme="@null"/>
+        <receiver android:name="cz.martykan.forecastie.widgets.ExtensiveWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@null"/>
+        </receiver>
+        <receiver android:name="cz.martykan.forecastie.widgets.TimeWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@null"/>
+        </receiver>
+        <receiver android:name="cz.martykan.forecastie.widgets.SimpleWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@null"/>
+        </receiver>
+        <service android:icon="@null" android:label="@null" android:name="cz.martykan.forecastie.widgets.DashClockWeatherExtension" android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA">
+            <intent-filter>
+                <action android:name="com.google.android.apps.dashclock.Extension"/>
+            </intent-filter>
+            <meta-data android:name="protocolVersion" android:value="2"/>
+            <meta-data android:name="worldReadable" android:value="true"/>
+            <meta-data android:name="settingsActivity" android:value=".ExampleSettingsActivity"/>
+        </service>
+        <receiver android:name="cz.martykan.forecastie.AlarmReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="cz.martykan.forecastie.authority" android:exported="true" android:name="cz.martykan.forecastie.utils.StubContentProvider"/>
+        <provider android:authorities="cz.martykan.forecastie.lifecycle-trojan" android:exported="false" android:multiprocess="true" android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <provider android:authorities="cz.martykan.forecastie.com.android.tools.ir.server.InstantRunContentProvider" android:multiprocess="true" android:name="com.android.tools.ir.server.InstantRunContentProvider"/>
+    </application>
+</manifest>

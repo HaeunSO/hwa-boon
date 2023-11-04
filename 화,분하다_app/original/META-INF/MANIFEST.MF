@@ -1,0 +1,127 @@
+Manifest-Version: 1.0
+Built-By: Generated-by-ADT
+Created-By: Android Gradle 3.4.0
+
+Name: AndroidManifest.xml
+SHA1-Digest: qF5Z3oca7CY1kalFLBZc192R51Q=
+
+Name: META-INF/android.arch.core_runtime.version
+SHA1-Digest: OxxKFJcpzAROGjnfMbNijNv1+JU=
+
+Name: META-INF/android.arch.lifecycle_extensions.version
+SHA1-Digest: OxxKFJcpzAROGjnfMbNijNv1+JU=
+
+Name: META-INF/android.arch.lifecycle_livedata-core.version
+SHA1-Digest: OxxKFJcpzAROGjnfMbNijNv1+JU=
+
+Name: META-INF/android.arch.lifecycle_livedata.version
+SHA1-Digest: OxxKFJcpzAROGjnfMbNijNv1+JU=
+
+Name: META-INF/android.arch.lifecycle_runtime.version
+SHA1-Digest: OxxKFJcpzAROGjnfMbNijNv1+JU=
+
+Name: META-INF/android.arch.lifecycle_viewmodel.version
+SHA1-Digest: OxxKFJcpzAROGjnfMbNijNv1+JU=
+
+Name: META-INF/com.android.support_animated-vector-drawable.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: META-INF/com.android.support_appcompat-v7.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: META-INF/com.android.support_cardview-v7.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: META-INF/com.android.support_design.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: META-INF/com.android.support_recyclerview-v7.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: META-INF/com.android.support_support-compat.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: META-INF/com.android.support_support-core-ui.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: META-INF/com.android.support_support-core-utils.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: META-INF/com.android.support_support-fragment.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: META-INF/com.android.support_support-media-compat.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: META-INF/com.android.support_support-v4.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: META-INF/com.android.support_support-vector-drawable.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: META-INF/com.android.support_transition.version
+SHA1-Digest: q1WJer5J+bOfh0q0JLVcKHSM0VI=
+
+Name: assets/animate.min.css
+SHA1-Digest: l6+hUVafBGsuAfJ8GHFkbpzYfK8=
+
+Name: assets/font-awesome.min.css
+SHA1-Digest: +1tJQm3ufxUIUA5pjRs8awTI/M4=
+
+Name: assets/fonts/weather.ttf
+SHA1-Digest: mRbj28OZDjBzz1ostMLpWCc7dTI=
+
+Name: assets/images/marker-icon-2x.png
+SHA1-Digest: zzpTZZax9Y4KyAVAQYPI5ta9rLU=
+
+Name: assets/images/marker-shadow.png
+SHA1-Digest: e2qN9jkwOB6WYE5wUWjQUn1rgrw=
+
+Name: assets/jquery.min.js
+SHA1-Digest: rknlaZnYKAJydFXwuoO2Os2Qois=
+
+Name: assets/leaflet.css
+SHA1-Digest: 6awO2eeSR6hUJa148xpl3xaegDg=
+
+Name: assets/leaflet.js
+SHA1-Digest: a2oLAzyR/ZFJmdnOMvxJtWcDLj0=
+
+Name: assets/map.html
+SHA1-Digest: +dSz1f+PW0RPDfv/6wWUhZlYBMk=
+
+Name: classes.dex
+SHA1-Digest: O5/Jg9sqqfFwj9iqr/rp7GtzNow=
+
+Name: classes10.dex
+SHA1-Digest: ib9rRpn5GhjKDDJb+EMhi3iq6qo=
+
+Name: classes11.dex
+SHA1-Digest: 6OgJdJ+RD++vMku3m4dCqg7+GJM=
+
+Name: classes2.dex
+SHA1-Digest: U0SjzZu7i44+G+9szwzgIG50lMg=
+
+Name: classes3.dex
+SHA1-Digest: ByCfQePhck62MFDi51L2/U3GKSk=
+
+Name: classes4.dex
+SHA1-Digest: vBidu7scZPkfH/jqD2BbvcQQiW4=
+
+Name: classes5.dex
+SHA1-Digest: YuOyJg9K+MdyurISfKxSQe7BXpY=
+
+Name: classes6.dex
+SHA1-Digest: eGlVI0iJzTu/xsEx6ukkZlQnNdM=
+
+Name: classes7.dex
+SHA1-Digest: gDif4gs9M1xqZpp/DrqY3tSZ4rs=
+
+Name: classes8.dex
+SHA1-Digest: 4F3wj7Sl6bauvU2wxzucUFtIDGw=
+
+Name: classes9.dex
+SHA1-Digest: nTZDCMdTyjZtzlZJ+gIwsiqBzpk=
+
+Name: resources.arsc
+SHA1-Digest: Mcmc3zooSFZvbucaTSq0XnGdC8U=
+
